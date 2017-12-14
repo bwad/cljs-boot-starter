@@ -1,0 +1,7 @@
+{:require  [starter.app]
+ :init-fns [starter.app/main]
+ :compiler-options {
+ 	;;:output-to "js/app.js"
+ 	:optimizations :whitespace 
+ 	:parallel-build false
+ 	:asset-path "js/app.out"}}
